@@ -281,6 +281,7 @@ footer .detail {
   }
   #banner-info {
     width: 60%;
+    padding: 10px;
   }
   #banner-info p {
     margin: 0;
@@ -310,9 +311,11 @@ footer .detail {
     padding: 25px;
   }
 
-  .skills-container .central {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+  .central {
+    border-top: 1px solid #ccc ;
+    border-bottom: 1px solid #ccc ;
+    border-left: none;
+    border-right: none;
   }
 
   /*  jobs  */
@@ -325,10 +328,13 @@ footer .detail {
   .job-container {
     flex-direction: column;
     margin-bottom: 0px;
+    
   }
   .job-box {
     margin-bottom: 2rem;
     flex: 1 1 300px;
+    margin-left: 17px !important;
+    margin-right: 20px !important;
   }
 
   /* footer */
